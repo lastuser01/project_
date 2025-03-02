@@ -73,7 +73,7 @@ a {
 }
 
 .fs {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 
@@ -98,13 +98,13 @@ a {
 }
 
 #p_id {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .customer {
     margin-top: 6.5rem;
 }
 
-.fw-b0lder {
-    font-size: 1.3rem;
+.fw-bolder {
+    font-size: 1.2rem;
 }

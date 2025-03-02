@@ -7,8 +7,8 @@ function showtime() {
     let date = new Date();
     date=date.toString();
     
-    let now = date.substring(8,10)+date.substring(3,7)+","+date.substring(13,15)+"| "+"09:58"+" AM";
-    let now2 = date.substring(8,10)+date.substring(3,7)+","+date.substring(13,15)+"| "+"11:59"+" AM"
+    let now = date.substring(8,10)+date.substring(3,7)+", "+date.substring(13,15)+" | "+"09:58"+" AM";
+    let now2 = date.substring(8,10)+date.substring(3,7)+", "+date.substring(13,15)+" | "+"11:59"+" PM"
     
     time.textContent =now;
     time2.textContent =now2;

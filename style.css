@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Devanagari:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif !important;
+    background-color: rgb(236, 211, 211) !important;
+    text-align: center !important;
+    z-index: 10 !important;
+
+}
+
+a {
+    color: black !important;
+}
+
+.top {
+    font-family: "Noto Sans Devanagari", sans-serif !important;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.middle {
+
+    border-top: 2px dashed rgb(209, 208, 208);
+    border-bottom: 2px dashed rgb(209, 208, 208);
+
+
+}
+
+.half {
+    height: 1.7rem;
+    aspect-ratio: 1;
+    position: absolute;
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 50%;
+    background-color: white;
+    top: 6.4rem;
+    left: -0.9rem;
+}
+
+/* .middle::before {
+    content: "";
+    height: 1.7rem;
+    aspect-ratio: 1;
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: white;
+    top: 6.4rem;
+    left: -0.9rem;
+    z-index: 5 !important;
+} */
+
+.middle::after {
+    content: "";
+    height: 1.7rem;
+    aspect-ratio: 1;
+    position: absolute;
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 50%;
+    background-color: white;
+    top: 6.4rem;
+    left: 17.5rem;
+}
+
+.fs {
+    font-size: 0.7em;
+}
+
+
+
+#top,
+#bottom {
+    background-color: red !important
+}
+
+
+.card {
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.red_bg {
+    color: white !important;
+}
+
+#p_id {
+    font-size: 0.8em;
+}
+
+.customer {
+    margin-top: 6.5rem;
+}

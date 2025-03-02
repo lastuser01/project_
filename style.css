@@ -5,7 +5,8 @@ body {
     background-color: rgb(236, 211, 211) !important;
     text-align: center !important;
     z-index: 10 !important;
-
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 a {

@@ -16,14 +16,6 @@ a {
     font-family: "Noto Sans Devanagari", sans-serif !important;
 }
 
-.container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center !important;
-    justify-content: center;
-}
-
 .head {
     display: flex;
     flex-direction: row;
@@ -37,6 +29,10 @@ a {
     border-bottom: 1px dashed rgb(209, 208, 208);
 
 
+}
+
+.container {
+    margin-top: 25%;
 }
 
 .half {
@@ -72,7 +68,7 @@ a {
     border-radius: 50%;
     background-color: white;
     top: 6.2rem;
-    left: 18.1rem;
+    left: 95.7%;
 }
 
 .fs {
@@ -83,7 +79,7 @@ a {
 
 #top,
 #bottom {
-    background-color: rgb(237, 29, 38) !important
+    background-color: rgba(202, 46, 65, 1) !important
 }
 
 

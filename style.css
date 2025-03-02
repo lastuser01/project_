@@ -33,8 +33,8 @@ a {
 
 .middle {
 
-    border-top: 2px dashed rgb(209, 208, 208);
-    border-bottom: 2px dashed rgb(209, 208, 208);
+    border-top: 1px dashed rgb(209, 208, 208);
+    border-bottom: 1px dashed rgb(209, 208, 208);
 
 
 }
@@ -46,7 +46,7 @@ a {
     border: 1px solid rgb(209, 208, 208);
     border-radius: 50%;
     background-color: white;
-    top: 6.4rem;
+    top: 6.2rem;
     left: -0.9rem;
 }
 
@@ -71,8 +71,8 @@ a {
     border: 1px solid rgb(209, 208, 208);
     border-radius: 50%;
     background-color: white;
-    top: 6.4rem;
-    left: 17.5rem;
+    top: 6.2rem;
+    left: 18.1rem;
 }
 
 .fs {
@@ -83,7 +83,7 @@ a {
 
 #top,
 #bottom {
-    background-color: red !important
+    background-color: rgb(237, 29, 38) !important
 }
 
 

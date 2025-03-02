@@ -12,8 +12,9 @@ a {
     color: black !important;
 }
 
-.top {
+#top {
     font-family: "Noto Sans Devanagari", sans-serif !important;
+    font-size: 1.5em;
 }
 
 .head {
@@ -72,14 +73,14 @@ a {
 }
 
 .fs {
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 
 
 #top,
 #bottom {
-    background-color: rgba(250, 60, 65, 1) !important
+    background-color: rgba(206, 70, 27, 1) !important
 }
 
 
@@ -97,7 +98,7 @@ a {
 }
 
 #p_id {
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
 
 .customer {

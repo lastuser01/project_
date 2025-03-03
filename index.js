@@ -15,7 +15,7 @@ function showtime() {
   }
   
   let date=new Date()
-  let month=date.toLocaleString().slice(3,4).padStart(2,0)
+  let month=date.toLocaleString().slice(0,1).padStart(2,0)
   date=date.toString()
   let uid=date.substring(13,15)+month+date.substring(8,10)+"958KK3RVQ"
   
